@@ -1,22 +1,46 @@
 ---
 title: Introduction
-description: 'Welcome to the home of your new documentation'
+description: 'Welcome to the documentation for our headless WordPress and Next.js project'
 ---
 
 <img
-  className="block dark:hidden"
-  src="/images/hero-light.svg"
-  alt="Hero Light"
+className="block dark:hidden"
+src="/images/hero-light.svg"
+alt="Hero Light"
 />
 <img
-  className="hidden dark:block"
-  src="/images/hero-dark.svg"
-  alt="Hero Dark"
+className="hidden dark:block"
+src="/images/hero-dark.svg"
+alt="Hero Dark"
 />
+Project Overview
 
-## Setting up
+Our project leverages WordPress as a headless CMS to manage and deliver content via a GraphQL API to a Next.js frontend. This setup allows us to decouple the content management system from the presentation layer, enabling greater flexibility, performance, and scalability.
+Key Features
 
-The first step to world-class documentation is setting up your editing environments.
+    Headless CMS: WordPress manages content and serves it through a GraphQL API.
+    Next.js Frontend: Modern React framework for building fast, server-rendered applications.
+    Custom Post Types and Taxonomies: Extend WordPress's default post types and categories to better structure content.
+    Special Widgets: Custom tools and features to enhance the website's functionality.
+
+Tech Stack Overview
+WordPress
+
+WordPress is used as a headless CMS, managing content and delivering it via a GraphQL API. It allows for the creation of custom post types and taxonomies, making it easy to organize and retrieve content.
+Next.js
+
+Next.js is a powerful React framework that enables server-side rendering and static site generation. It fetches data from the WordPress GraphQL API and renders it efficiently on the frontend.
+GraphQL
+
+GraphQL is a query language for APIs that allows clients to request exactly the data they need. It serves as the bridge between WordPress and the Next.js frontend, providing a flexible and efficient data-fetching mechanism.
+Purpose of the Documentation
+
+This documentation aims to provide a comprehensive guide to understanding and working with our headless WordPress and Next.js project. It covers setup instructions, configuration details, and advanced topics to help developers get started quickly and make the most of the project's features.
+Objectives
+
+    Ease of Use: Simplify the setup and development process with clear instructions and examples.
+    Comprehensive Coverage: Document all major aspects of the project, from the tech stack to custom features.
+    Continuous Improvement: Regularly update the documentation to reflect changes and enhancements in the project.
 
 <CardGroup cols={2}>
   <Card
@@ -32,40 +56,5 @@ The first step to world-class documentation is setting up your editing environme
     href="https://mintlify.com/docs/development"
   >
     Preview your changes before you push to make sure they're perfect
-  </Card>
-</CardGroup>
-
-## Make it yours
-
-Update your docs to your brand and add valuable content for the best user conversion.
-
-<CardGroup cols={2}>
-  <Card
-    title="Customize Style"
-    icon="palette"
-    href="https://mintlify.com/docs/settings/global"
-  >
-    Customize your docs to your company's colors and brands
-  </Card>
-  <Card
-    title="Reference APIs"
-    icon="code"
-    href="https://mintlify.com/docs/api-playground/openapi"
-  >
-    Automatically generate endpoints from an OpenAPI spec
-  </Card>
-  <Card
-    title="Add Components"
-    icon="screwdriver-wrench"
-    href="https://mintlify.com/docs/components/accordion"
-  >
-    Build interactive features and designs to guide your users
-  </Card>
-  <Card
-    title="Get Inspiration"
-    icon="stars"
-    href="https://mintlify.com/customers"
-  >
-    Check out our showcase of our favorite documentation
   </Card>
 </CardGroup>
